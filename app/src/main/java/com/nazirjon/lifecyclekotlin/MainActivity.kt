@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPostResume() {
         super.onPostResume()
-        toastMeState("onPostResume")
+        toastMeState("on_Post_Resume")
     }
 
     override fun onPause() {
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onRestart() {
         super.onRestart()
-        toastMeState("onRestart")
+        toastMeState("on_Restart")
     }
 
     override fun onDestroy() {
